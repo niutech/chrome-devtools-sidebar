@@ -1,0 +1,19 @@
+{
+  "name": "Bookmarks, History, Website DevTools Sidebar Panel",
+  "version": "0.1",
+  "description": "Shows Bookmarks, History, any Website or Google Search in Chrome Developer Tools Sidebar Panels.",
+  "devtools_page": "devtools.html",
+	"icons": {
+		"16": "icon16.png",
+		"48": "icon48.png",
+		"128": "icon128.png"
+	},
+	"permissions": [
+    "bookmarks",
+    "history"
+  ],
+   "background": {
+    "scripts": ["background.js"]
+  },
+  "manifest_version": 2
+}

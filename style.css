@@ -1,0 +1,37 @@
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+#history li, #bookmarks li {
+  background: url('file.png') no-repeat 0 2px;
+  padding-left: 20px;
+  padding-top: 2px;
+}
+
+.folder {
+  background-image: url('folder.png') !important;
+}
+
+#website input {
+  width: calc(100% - 30px);
+	padding: 3px;
+}
+
+#website input + input {
+  width: 30px;
+}
+
+.footer {
+  color: #aaa;
+  font-size: 80%;
+  text-align: center;
+}
