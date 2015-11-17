@@ -1,4 +1,9 @@
+body {
+  margin: 0;
+}
+
 a {
+  color: #333;
   text-decoration: none;
 }
 
@@ -11,14 +16,18 @@ ul {
   padding: 0;
 }
 
+#history, #bookmarks {
+  padding: 0 10px;
+}
+
 #history li, #bookmarks li {
-  background: url('file.png') no-repeat 0 2px;
+  background: url('images/file.png') no-repeat 0 2px;
   padding-left: 20px;
   padding-top: 2px;
 }
 
 .folder {
-  background-image: url('folder.png') !important;
+  background-image: url('images/folder.png') !important;
 }
 
 #website input {
@@ -28,6 +37,12 @@ ul {
 
 #website input + input {
   width: 30px;
+}
+
+iframe {
+  border: 0;
+	width: 100%;
+	height: calc(100vh - 95px);
 }
 
 .footer {

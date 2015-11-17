@@ -1,5 +1,5 @@
 
-chrome.devtools.panels.create("Bookmarks", "bookmarks.svg", "bookmarks.html", function(panel) {
+chrome.devtools.panels.create("Bookmarks", "images/bookmarks.svg", "bookmarks.html", function(panel) {
   var win, tree;
   var port = chrome.runtime.connect({
       name: 'bookmarks'
@@ -23,7 +23,7 @@ chrome.devtools.panels.create("Bookmarks", "bookmarks.svg", "bookmarks.html", fu
   });
 });
 
-chrome.devtools.panels.create("History",  "history.svg", "history.html", function(panel) {
+chrome.devtools.panels.create("History",  "images/history.svg", "history.html", function(panel) {
   var win, tree;
   var port = chrome.runtime.connect({
       name: 'history'
@@ -47,5 +47,5 @@ chrome.devtools.panels.create("History",  "history.svg", "history.html", functio
   });
 });
 
-chrome.devtools.panels.create("Website",  "", "website.html", function(panel) {
+chrome.devtools.panels.create("Website",  "images/website.svg", "website.html", function(panel) {
 });
