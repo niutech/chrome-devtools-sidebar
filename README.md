@@ -12,7 +12,7 @@ Screenshot
 
 Here are all three panels combined:
 
-![Screenshot of Bookmarks, History, Website DevTools Sidebar Panel](http://i.imgur.com/PfB0TzN.jpg)
+![Screenshot of Bookmarks, History, Website DevTools Sidebar Panel](https://raw.githubusercontent.com/niutech/chrome-devtools-sidebar/master/images/large-preview.jpg)
 
 Authors & License
 -----------------
