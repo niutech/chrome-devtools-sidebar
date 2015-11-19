@@ -13,30 +13,47 @@ a:hover {
 
 ul {
   list-style: none;
-  padding: 0;
-}
-
-#history, #bookmarks {
-  padding: 0 10px;
-}
-
-#history li, #bookmarks li {
-  background: url('images/file.png') no-repeat 0 2px;
   padding-left: 20px;
-  padding-top: 2px;
+}
+
+li {
+  line-height: 20px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .folder {
-  background-image: url('images/folder.png') !important;
+  padding-left: 20px;
+  background: url(images/folder.png) no-repeat center left;
+}
+
+.folder.open {
+  background-image: url(images/folder-open.png);
+}
+
+.folder + ul {
+  display: none;
+}
+
+.folder.open + ul {
+  display: block;
+}
+
+ul img {
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+  vertical-align: text-bottom;
 }
 
 #website input {
-  width: calc(100% - 30px);
+  width: 30px;
 	padding: 3px;
 }
 
-#website input + input {
-  width: 30px;
+#q {
+  width: calc(100% - 90px) !important;
 }
 
 iframe {
